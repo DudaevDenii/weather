@@ -56,10 +56,10 @@
               <h3>Temperature</h3>
             </div>
             <div class="temps">
-              <div>Temp: {{ weatherStore.data.main.temp }}F</div>
-              <div>Min: {{ weatherStore.data.main.temp_min }}F</div>
-              <div>Max: {{ weatherStore.data.main.temp_max }}F</div>
-              <div>Feels like: {{ weatherStore.data.main.feels_like }}F</div>
+              <div>Temp: {{ weatherStore.data.main.temp }}K</div>
+              <div>Min: {{ weatherStore.data.main.temp_min }}K</div>
+              <div>Max: {{ weatherStore.data.main.temp_max }}K</div>
+              <div>Feels like: {{ weatherStore.data.main.feels_like }}K</div>
             </div>
           </div>
           <div>
